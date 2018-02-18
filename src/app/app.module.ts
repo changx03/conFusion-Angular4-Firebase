@@ -32,7 +32,7 @@ import { FavoriteService } from './services/favorite.service';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
-import { baseURL } from './shared/baseurl';
+import { baseURL } from './shared/baseUrl';
 import { ProcessHTTPMsgService } from './services/process-httpmsg.service';
 import { HighlightDirective } from './directives/highlight.directive';
 import {HTTP_INTERCEPTORS} from '@angular/common/http';
